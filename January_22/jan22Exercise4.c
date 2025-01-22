@@ -3,7 +3,7 @@
 
 void area(float radius){
     // Calculate the conversion
-    float area =  M_PI * (radius * radius);
+    double area = (M_PI) * (radius * radius);
 
     // Print the results
     printf("%.2f\n", area);
