@@ -1,9 +1,8 @@
 # include <stdio.h>
-# include <math.h>
 
 void area(float radius){
-    // Calculate the conversion
-    double area = (M_PI) * (radius * radius);
+    // Calculate the area using 3.14 as pi
+    double area = (3.14) * (radius * radius);
 
     // Print the results
     printf("%.2f\n", area);
