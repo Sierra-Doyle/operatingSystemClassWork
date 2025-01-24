@@ -14,13 +14,4 @@ void main()
     else{
         printf("Your number is 0\n");
     }
-    
-    if(number % 2 == 0){
-        printf("Your number is even\n");
-    }
-    else{
-        printf("Your number is odd\n");
-    }
-    
-    
 }
