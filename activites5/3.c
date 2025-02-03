@@ -4,8 +4,7 @@
 #include <sys/wait.h>
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]) {
     int rc = fork();
     if (rc < 0) {
         // fork failed; exit
@@ -21,4 +20,5 @@ main(int argc, char *argv[])
         printf("Wait returns %d\n", wc);
         
     return 0;
+}
 }
